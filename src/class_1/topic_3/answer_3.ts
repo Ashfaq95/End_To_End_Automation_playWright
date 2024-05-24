@@ -1,6 +1,7 @@
 // Program 1
 
 // // Declare variables
+//used let to because of reusability 
 // let startValue: number = 0;
 // let endValue: number = 5;
 // let stepSize: number = 1;
@@ -20,6 +21,7 @@
 //2nd part 
 
 //Declare variables
+//used let to because of reusability  
 let startValue: number = 0;
 let endValue: number = 5;
 let stepSize: number = 1;
