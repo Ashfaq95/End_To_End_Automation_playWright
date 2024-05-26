@@ -92,30 +92,30 @@ anonymousLogMessage("This is an anonymous function log.");
 arrowLogMessage("This is an arrow function log.");
 
 // ReverseString
-console.log(anonymousReverseString("hello")); // Output: "olleh"
-console.log(arrowReverseString("world"));     // Output: "dlrow"
+console.log(anonymousReverseString("hello")); 
+console.log(arrowReverseString("world"));     
 
 // Negate
-console.log(anonymousNegate(true));  // Output: false
-console.log(arrowNegate(false));     // Output: true
+console.log(anonymousNegate(true)); 
+console.log(arrowNegate(false));     
 
 // Double
-console.log(anonymousDouble(10));    // Output: 20
-console.log(arrowDouble(20));        // Output: 40
+console.log(anonymousDouble(10));    
+console.log(arrowDouble(20));       
 
 // GetFirstPerson
 const people: Person[] = [{ name: "Alice", age: 30 }, { name: "Bob", age: 25 }];
-console.log(anonymousGetFirstPerson(people)); // Output: { name: "Alice", age: 30 }
-console.log(arrowGetFirstPerson(people));     // Output: { name: "Alice", age: 30 }
+console.log(anonymousGetFirstPerson(people)); 
+console.log(arrowGetFirstPerson(people));     
 
 // Greet
-console.log(anonymousGreet("Alice")); // Output: "Hello, Alice!"
-console.log(anonymousGreet());        // Output: "Hello, stranger!"
-console.log(arrowGreet("Bob"));       // Output: "Hello, Bob!"
-console.log(arrowGreet());            // Output: "Hello, stranger!"
+console.log(anonymousGreet("Alice")); 
+console.log(anonymousGreet());        
+console.log(arrowGreet("Bob"));       
+console.log(arrowGreet());            
 
 // Increment
-console.log(anonymousIncrement(5));   // Output: 6
-console.log(anonymousIncrement(5, 2));// Output: 7
-console.log(arrowIncrement(10));      // Output: 11
-console.log(arrowIncrement(10, 3));   // Output: 13
+console.log(anonymousIncrement(5));   
+console.log(anonymousIncrement(5, 2));
+console.log(arrowIncrement(10));      
+console.log(arrowIncrement(10, 3));   
