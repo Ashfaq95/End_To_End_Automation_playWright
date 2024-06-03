@@ -9,7 +9,7 @@ function calculateNetPrice(productPrice: number,discount: number,serviceCharge: 
 
 // A product that has 10% discount
 const priceWithDiscount = calculateNetPrice(100, 10, 3, 5);
-console.log(`Price with 10% discount: ${priceWithDiscount.toFixed(2)}`); 
+console.log(`Price with 10% discount: ${priceWithDiscount.toFixed(2)}`); //The toFixed(digits) method in JavaScript is used to format a number to a fixed number of decimal places.(ex: 123.64)
 
 // A product that has 200% tax
 const priceWithHighTax = calculateNetPrice(100, 0, 3, 200);
