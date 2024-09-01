@@ -16,8 +16,8 @@ type DiscountedProduct = {
   price: number;
 };
 
-function getDiscountedProducts(products: Product1[]): DiscountedProduct[] {
-  return products.filter(product => product.inStock).map(product => ({ //filter: Filters out products that are out of stock and map: Transforms the remaining products to include only the name and the discounted price (10% discount applied).
+function getDiscountedProducts(productsList: Product1[]): DiscountedProduct[] {
+  return productsList.filter(product => product.inStock).map(product => ({ //filter: Filters out products that are out of stock and map: Transforms the remaining products to include only the name and the discounted price (10% discount applied).
     name: product.name,
     price: product.price * 0.9
   }));

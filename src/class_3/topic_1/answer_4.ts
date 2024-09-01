@@ -10,8 +10,8 @@ const employeesList: Employee[] = [
   { name: "David", salary: 99000 }
 ];
 
-function hasHighEarningEmployee(employees: Employee[]): boolean {
-  return employees.some(employee => employee.salary > 100000); //some Method: It checks each employee in the array to see if their salary is greater than $100,000.
+function hasHighEarningEmployee(employeesList: Employee[]): boolean {
+  return employeesList.some(employee => employee.salary > 100000); //some Method: It checks each employee in the array to see if their salary is greater than $100,000.
 }
 
 const highEarningExists = hasHighEarningEmployee(employeesList);

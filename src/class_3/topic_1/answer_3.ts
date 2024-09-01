@@ -10,8 +10,8 @@ const userList: User3[] = [
   { name: "David", age: 20 }
 ];
 
-function areAllUsersAdults(users: User3[]): boolean {
-  return users.every(user => user.age > 18);  //every Method: It checks each user in the array to see if their age is greater than 18.
+function areAllUsersAdults(userList: User3[]): boolean {
+  return userList.every(user => user.age > 18);  //every Method: It checks each user in the array to see if their age is greater than 18.
 }
 
 const allAdults = areAllUsersAdults(userList);

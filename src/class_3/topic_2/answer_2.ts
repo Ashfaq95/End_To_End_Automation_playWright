@@ -47,7 +47,7 @@ class NokiaButtonPhone {
         if (this.isPowerOn) {
             this.snakeGame.startGame();
         } else {
-            console.log("Phone is OFF. Cannot play games.");
+            console.log("Phone is OFF. Ghuma!");
         }
     }
 
